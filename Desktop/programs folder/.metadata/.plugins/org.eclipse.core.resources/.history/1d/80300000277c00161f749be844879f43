@@ -1,0 +1,36 @@
+import java.util.ArrayList;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Person Lexo = new Person(17, "Lexo");
+		
+		System.out.println(Lexo.getName());
+		Lexo.setAge(34);
+		System.out.println(Lexo.getAge());
+	
+		int [] anArray; 
+		anArray = new int[10];
+		
+		int y = 1;
+		for( int x = 0; x<=9; x++){
+			anArray[x] = y;
+			System.out.println(anArray[x]);
+			y*=10;
+		}
+		
+		ArrayList<Person> personList = new ArrayList<Person>();
+		personList.add(Lexo);
+		
+		for(Person p:personList){
+		System.out.println(p);
+		}
+	
+
+	
+	
+	}
+
+}

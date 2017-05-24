@@ -1,0 +1,11 @@
+Name	Age	Mood
+Alec	18	happy
+Erek	19	Stressed
+Chad	17	Fast
+Joe	18	Psyched
+Erek	27	Mad
+Alec	18	happy
+Erek	18	Stressed
+Chad	52	Fast
+Joe	18	Psyched
+Erek	60	Mad

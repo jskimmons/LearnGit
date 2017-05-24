@@ -1,0 +1,25 @@
+Class: HONORS DATA STRUCTURES ALGOL
+ Meets: Monday, Wednesday
+Time: 1:10pm-2:25pm
+Professor: Daniel Bauer
+Call Number: 19687
+Class: CALCULUS III
+ Meets: Monday, Wednesday
+Time: 8:40am-9:55am
+Professor: Galyna Dobrovolska
+Call Number: 21153
+Class: UNIVERSITY WRITING
+ Meets: Tuesday, Thursday
+Time: 8:40am-9:55am
+Professor: Adam C Winters
+Call Number: 92103
+Class: INTRO ELEC/MAGNETSM OPTCS
+ Meets: Tuesday, Thursday
+Time: 10:10am-11:25am
+Professor: Tanya Zelevinsky
+Call Number: 19770
+Class: INTRO TO COMP FOR ENG/APP SCI
+ Meets: Monday, Wednesday
+Time: 10:10am-11:25am
+Professor: Daniel Bauer
+Call Number: 74895

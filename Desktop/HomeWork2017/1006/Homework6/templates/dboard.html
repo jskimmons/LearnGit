@@ -1,0 +1,55 @@
+    <!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #FFFFFF;
+    font-family: sans-serif;
+    color: #505050
+}
+
+h1 {
+    color: #129793;
+}  
+
+a { color: #FF7260;
+    }
+    
+p.post { padding:5px; 
+         width: 800px;
+
+         border-style: solid;
+         border-width: 1px;
+         background-color: #FFFAC3;
+
+      }
+span.author_date {
+                 float: right;
+                 color: #129793;
+                 }
+</style>
+<title> 1006 Discussion Board </title>
+</head>
+<body>
+  <h1> Welcome to the 1006 Discussion Board </h1>
+
+  <p><a href="/compose">Create New Post</a></p>
+
+<!-- This is where the posts start. The following is an example post. 
+     You should keep the formatting of this post, but replace the actual content with 
+     template placeholders. 
+  -->
+  {% for post in posts %}
+  <p class="post">
+    <span class="author_date"> {{post.author}} - {{post.date}} </span><br/>
+    {{post.content}}  
+ </p>
+ {% endfor %}
+<!-- This is where the posts end -->
+
+
+</body>
+</html>
+

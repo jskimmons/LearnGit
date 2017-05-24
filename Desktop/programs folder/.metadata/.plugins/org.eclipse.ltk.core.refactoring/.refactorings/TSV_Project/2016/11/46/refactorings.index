@@ -1,0 +1,8 @@
+1478455331863	Convert local variable 'streamRead' to field
+1478458727702	Convert local variable 'out' to field
+1478473882412	Encapsulate field 'fileName'
+1478629622762	Extract method 'extracted'
+1478910611277	Delete element
+1478910615758	Delete element
+1478928990085	Delete element
+1478929002311	Delete element

@@ -1,0 +1,59 @@
+1. Diff between algorithm and program:
+
+Algorithm is a simple set of steps to correctly solve a problem that eventually terminates
+A program is the physical manifestation of an algorithm
+
+2. Diff between statement and expression
+
+Statement has side effects, no return, Expression returns a value
+
+Statement - print Expression 5+7
+
+3.
+A. True
+B. False
+C. False
+D. True
+E. False
+
+Operations only defines for specific data types.
+len()
+math for strings doest work
+
+not a or (b or not(a and b))
+a = true
+b = false
+
+True
+
+SHORT CIRCUIT
+
+x = 0
+y = 2
+z = 4
+
+(x and y) or (y and z)
+
+True, gives last thing that makes it true, so answer is 4
+
+0 is false
+any other number is true
+
+
+0
+42
+
+4
+8
+16
+32
+64
+
+4
+12
+24
+24
+0
+
+
+

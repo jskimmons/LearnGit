@@ -1,0 +1,11 @@
+
+public class TSVFilter_Tester {
+
+	public static void main(String[] args) {
+		
+		TSVFilter filter = new TSVFilter(new FilterBuilder("Name", "joe"));
+		
+		
+	}
+
+}

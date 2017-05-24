@@ -1,0 +1,131 @@
+.chartContainerDiv,.chartFooterDiv{
+    margin: 0 auto;	
+	/*background-color:white;#f2f5f8;*/
+	border-top:15px solid #f2f5f8;
+	border-left:20px solid #f2f5f8;
+	border-right:20px solid #f2f5f8;	
+}
+
+.chart-header{	
+	margin-top:10px;
+	width:100%;
+	background-color:white;
+	border-collapse:collapse;
+	/*border:1px solid #44494C;*/
+	font-size:13px;
+	font-family::'open sans;sans serif';
+	font-weight: bold;
+	height:70px;
+}
+.turnoverRateTableDiv,.turnoverReductionDiv,.savingsDiv,.totalEBITDADiv{
+ 	width: 100%;
+ 	height:100%;
+  	display:block;
+	text-align:right;
+}
+.turnoverRateTable,.turnoverReductionTable,.tblSavings{
+	width: 100%;
+	height: 100%;
+	/*border-bottom:1px solid #44494C;
+	border-top:1px solid #44494C;
+	border-right:1px solid #44494C;*/
+	
+}
+.turnoverReductionTable,.tblSavings{
+	/*border-left:1px solid #44494C;*/
+}
+.turnoverReductionTable{
+    text-align: center;
+}
+.topgain{
+	font-size:20px;
+	color: #E87506;
+}
+.costSavings{
+    padding: 3px 0px 3px 0px;
+    text-align: center;
+}
+.plus{
+	padding: 3px 0px 3px 0px;
+    text-align: center;
+}
+.gains{
+	padding: 3px 0px 3px 0px;
+    text-align: center;
+}
+.save{
+	font-size:20px;
+	color: #348CA2;
+}
+.plus{
+	font-size:25px;
+	font-weight:bold;	
+}
+.totalEBITDADiv{
+	text-align:center;
+	/*border-top: 1px solid #44494C;
+	border-bottom: 1px solid #44494C;
+	border-left: 1px solid #44494C;*/
+	
+	
+}
+.bottomimpact{
+	text-align:center;
+	font-size:30px;
+	font-weight:bold;
+}
+.savingsDiv:after{
+    content: "";
+    border-left: 20px solid white;
+    border-top: 35px solid #f2f5f8;
+    border-bottom: 35px solid #f2f5f8;
+    float: right;
+    margin-top: -70px;
+}
+
+
+.turnoverReductionDiv:after{
+    content: "";
+    border-left: 20px solid white;
+    border-top: 35px solid #f2f5f8;
+    border-bottom: 35px solid #f2f5f8;
+    background-color:white;
+    float: right;
+    margin-top: -70px;
+  
+}
+.turnoverReductionDiv{
+	border-left: 6px solid #f2f5f8;
+}
+.rateTD,.currentTD,.newTD{
+	/*border-bottom:1px solid black;*/
+}
+.currentTD1,.newTD1{
+	padding-right: 10px;
+}
+.newTD{
+	padding-right: 10px;
+}
+.rateTD1{
+	text-indent: -10px;
+}
+.chart{
+	height:500px;
+	/*background-color:white;	
+	border-top: 5px solid #f2f5f8;*/
+    width: 85%;
+    margin: 0 auto;
+}
+
+.chartFooterTable{
+	    font-weight:bold;
+}
+
+
+
+
+
+
+
+
+

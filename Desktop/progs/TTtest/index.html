@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link href="style.css" rel="stylesheet" type="text/css" />
+	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+</script>
+
+</head>
+<body>
+ <table style="width:50%">
+  <tr>
+    <td>
+    <div id="q1" class="container">
+		<p class="employeeHeadcount" id="employeeHeadcount">Employee Headcount?</p>
+		<input type="text" class="css-input" id="employeeHeadcountInput" name="employeeHeadcount" value="75">
+	</div>
+	</td>
+  </tr>
+  <tr>
+    <td>
+    	<div id="q2" class="container">
+		<p id="newHireTurnoverRate" class="newHireTurnoverRate">Turnover Rate?</p>
+		<input type="text" class="css-input" id="newHireTurnoverRateInput" name="newHireTurnoverRateInput" value="75">
+		</div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+    	<div id="q3" class="container">
+		<p id="newHireTurnoverRate" class="newHireTurnoverRate">EBITDA?</p>
+		<input type="text" class="css-input" id="EBITAInput" name="ebidta" value="75">
+		</div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+    	<div id="q4" class="container">
+		<p class="industry" id="industry">INDUSTRY?</p>
+    	<select class="select" name="industry" class="industry">
+        <option value="0.7">Contact Center</option>
+        <option value="0.71">Retail</option>
+        <option value="0.69">Hospitality</option>
+        <option value="0.7" >Customer Service</option>             
+    	</select>
+    	</div>
+    </td>
+  </tr>
+  <tr>
+  	<td>
+  		<div>
+		<button id="calculate" class = "buttons">Calculate</button>
+		</div>
+  	</td>
+  </tr>
+</table> 
+<script type="text/javascript">
+	  $("#calculate").click(function(){
+    //event.preventDefault();
+    //get form data
+	$(".hidden").show();
+	  
+	var formData = {
+            'employeeHeadcount': $('input[name=employeeHeadcount]').val(),
+            'newHireTurnoverRate': $('input[name=newHireTurnoverRate]').val(),
+            'ebitda': $('input[name=ebitda]').val(),           
+            'averageCompensation': $('input[name=averageCompensation]').val(),
+            'hiringCost': $('input[name=hiringCost]').val(),
+            'trainingCost': $('input[name=trainingCost]').val(),
+            'vacancyPeriod': $('input[name=vacancyPeriod]').val(),
+            'industry':$('select[name="industry"] option:selected').val(),
+            'productivity0To30': $('input[name=productivity0To30]').val(),
+            'productivity31To60': $('input[name=productivity31To60]').val(),
+            'productivity61To90': $('input[name=productivity61To90]').val(),
+            'productivity91To180': $('input[name=productivity91To180]').val(),
+            'productivity181To365': $('input[name=productivity181To365]').val(),
+            'productivityGreater365': $('input[name=productivityGreater365]').val()
+        };
+    
+    if(validate(formData)){
+      var trimValues = calculate(formData);
+      if(trimValues!=null){
+        drawGraph(trimValues);  
+      }
+    }
+  });
+</script>
+
+</body>
+</html>

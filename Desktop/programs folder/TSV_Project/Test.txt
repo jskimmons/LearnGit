@@ -1,0 +1,7 @@
+Name	Age	ID	State
+Joe	18	1	Alabama
+Josh	22	2	Alaska
+Alexa	15	3	Texas
+Zeke	40	4	Missouri
+Chad	30	5	Louisiana
+Sally	21	6	California

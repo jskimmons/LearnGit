@@ -1,0 +1,10 @@
+object HelloWorld{
+       def main(args: Array[String]): Unit = {
+       	   println("Hello World")
+	   someGort(3)
+	   }
+	 def someGort(x:Int) : Int = {
+	     val x = 2
+	     return x
+	    }
+}

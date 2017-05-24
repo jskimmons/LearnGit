@@ -1,0 +1,137 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<title>Test</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<!-- <meta http-equiv="refresh" content="3;url=download.pdf">  -->
+	<!--possibly put this back in url in meta tag before download.pdf: http://www.talenteck.com/ -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,600' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/annoyingZIndexHack.css" />
+
+<!-- 	<link rel="stylesheet" href="jquery-ui.min.css">
+	<script src="external/jquery/jquery.js"></script>
+	<script src="jquery-ui.min.js"></script> -->
+
+	<script src="js/gen_validatorv4.js"></script>
+	<script src="js/popupEmail.js"></script>
+	<script src="js/sessionControl.js"></script>
+	</head>
+
+  <body>
+
+  	<!-- Popup to prompt for firstname, lastname, and email -->
+	<div class="popup2-container" id="popup2_close">
+	  <div class="popup2-wrapper">
+		<div class="popup-contactUs">
+		  <h3>TalenTeck White Papers<span>Please provide your email to access the pdf files.</span></h3>
+		  <div class="formMain">
+
+			<div class="common" id="contactUs">
+			  	<div class="block3">
+					<div class="labelclass">
+				  		<label for="EMail" id="l3">Email </label>
+					</div>
+					<div class="textclass">
+					  	<input type="text" id="EMail" name="EMail" >
+					</div>
+				</div>
+				<div class="block2">
+					<div class="labelclass">
+						<label for="firstName">First Name </label>
+					</div>
+					<div class="textclass">
+						<input type="text" id="firstName" name="firstName">
+					</div>
+				</div>
+				<div class="block2">
+					<div class="labelclass">
+						<label for="lastName">Last Name </label>
+					</div>
+					<div class="textclass">
+						<input type="text" id="lastName" name="lastName" >
+					</div>
+				</div>
+			  	<div class="submitclass">
+					<input type="submit" value="Submit" name="submit" id="submit-email">
+			 	</div>
+			  	<div id='contactUs_errorloc' class='error_strings'></div>
+			</div>
+			<!-- <script type="text/javascript">
+			   var frmvalidator = new Validator("contactUs");
+			   frmvalidator.addValidation("EMail","maxlen=50", "Maximum email length: 50 characters.");
+			   frmvalidator.addValidation("EMail","req", "Please enter your email address.");
+			   frmvalidator.addValidation("EMail","email", "Please enter a valid email address.");
+			   frmvalidator.EnableOnPageErrorDisplaySingleBox();
+			   frmvalidator.EnableMsgsTogether();
+			</script> -->
+
+		  </div>
+		</div>
+		<!-- <p><a href="javascript:void(0)" id="popup1close">Close</a></p> -->
+	  </div>
+	</div>
+
+
+	<div class="center-panel">
+	  <a href="index.html"><img src="images/TTlogo.png" alt=""></a>
+	  <!-- <h2>Thank you. You may now select a white paper.</h1> -->
+	  <h3>Please select a white paper.</h3>
+	  <div class="pdf-boxes" id="HoboSyndrome"> <!-- id="popup2_open" -->
+		<a href="javascript:void(0)" id="submit-direct-paper-request"><span>
+		<h5>Learning About the Employer-Employee Match: Referrals and Search Efficiency</h5>
+		<p>Tavis Barr, Raicho Bojilov, Lalith Munasinghe</p>
+		</span></a>
+		<!-- <a href="download.pdf" download="download" alt="">
+		
+		<img src="extra/downloadicon.png" alt="">
+		</a> -->
+		<!-- <p>Not redirecting? Click <a href="download.pdf">here</a></p> -->
+	  </div>
+	  <div class="pdf-boxes">
+		<a href="download.pdf"><span>
+		<h5>Title Title Title Title Title Title</h5>
+		<p>Author Author Author Author</p>
+		</span></a>
+		<a href="download.pdf" download="download" alt="">
+		
+		<img src="extra/downloadicon.png" alt="">
+		</a>
+		<!-- <p>Not redirecting? Click <a href="download.pdf">here</a></p> -->
+	  </div>
+	  <div class="pdf-boxes">
+		<a href="download.pdf"><span>
+		<h5>Title Title Title Title Title Title</h5>
+		<p>Author Author Author Author</p>
+		</span></a>
+		<a href="download.pdf" download="download" alt="">
+		
+		<img src="extra/downloadicon.png" alt="">
+		</a>
+	  </div>
+	  <div class="pdf-boxes">
+		<a href="download.pdf"><span>
+		<h5>Title Title Title Title Title Title</h5>
+		<p>Author Author Author Author</p>
+		</span></a>
+		<a href="download.pdf" download="download" alt="">
+		
+		<img src="extra/downloadicon.png" alt="">
+		</a>
+		<!-- <p>Not redirecting? Click <a href="download.pdf">here</a></p> -->
+	  </div>
+	  <div class="pdf-boxes">
+		<a href="download.pdf"><span>
+		<h5>Title Title Title Title Title Title</h5>
+		<p>Author Author Author Author</p>
+		</span></a>
+		<a href="download.pdf" download="download" alt="">
+		
+		<img src="extra/downloadicon.png" alt="">
+		</a>
+		<!-- <p>Not redirecting? Click <a href="download.pdf">here</a></p> -->
+	  </div>
+	</div>
+  </body>
+</html>

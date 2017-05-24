@@ -1,0 +1,488 @@
+.wrapper{
+	/*border:1px solid black;*/
+}
+.trimTable{
+	float:left;
+	width:290px;
+	height:455px;
+	margin-left: 35px;	
+	/*border:1px solid black;*/	
+}
+#industry{
+ 	width: 106px;
+   	height: 34px;
+   	overflow: hidden;  
+}
+.trimTable label{
+	display: inline-block;
+  	font-family: 'Open Sans', sans-serif;
+  	font-weight: lighter;
+    background-color: #f2f5f8;
+    font-size: 13px;
+    padding: 4px 0 4px 0px;
+    text-indent: 1em;
+}
+.trimTable input[type="text"]{
+    
+	width:98px;
+	text-align:right;
+	padding-bottom: 3px;
+	padding-top: 5px;
+}
+.profile-group label{
+	width: 183px;
+    margin-right: -4px;
+}
+.profile-group{
+	margin-bottom:8px;
+}
+
+.productivity-group{
+	margin-left: -3px;
+	margin-bottom:8px;
+}
+.productivity-group label{
+    width: 154px;
+    margin-right: -5px;
+    margin-left: 30px;
+}
+.productivity-group button{
+    padding-top: 6px;
+    padding-bottom: 18px;
+    width: 100%;
+    border: 0;
+    font-size: 13px;
+}
+.header-group{
+	margin-bottom:6px;
+	text-align:center;
+    font=size:13px;
+	background-color:#f2f5f8;
+	padding-top:5px;
+    height:27px;
+}
+.header-group-rotate{
+	float:right;
+ 	-webkit-transform: rotate(-90deg);
+    transform:rotate(-90deg);
+    -webkit-transform-origin:0 0;
+    transform-origin:0 0;
+   	-moz-transform: rotate(-90deg);
+	position:absolute;
+    white-space: nowrap;
+    bottom: -2.1em;
+	padding:3px 2px 3px 9px;
+	font-size: 12px;
+    background-color: #f2f5f8;
+    width: 150px;
+}
+.trimChart{
+	float:right;
+	width:630px;
+	height:405px;	
+	margin-right: 35px;
+}
+.chartDefault{
+    font-size: 13px;
+    text-align: center;
+    height: 428px;
+    background-color:#f2f5f8;
+    border:1px solid gray; 
+}
+
+.prevtrimChart{
+    float:right;
+    width:630px;
+    height:405px;   
+    margin-right: 35px;
+}
+.prevchartDefault{
+    font-size: 13px;
+    text-align: center;
+    height: 428px;
+    background-color:#f2f5f8;
+    border:1px solid gray; 
+}
+
+.chartHeader{font-size:13px;text-align: center;font-weight: bold;}
+.chartDefaultText{padding-top:200px;}
+
+.chartContainerDiv{
+	display:none;
+	height:428px;
+	background-color:#f2f5f8;
+	border-top-color:#f2f5f8;
+    border:1px solid gray;    		
+}
+
+.prevchartContainerDiv{
+    display:none;
+    height:428px;
+    background-color:#f2f5f8;
+    border-top-color:#f2f5f8;
+    border:1px solid gray;          
+}
+
+.chart-header{
+	height:52px;
+	margin-bottom:6px;
+	border-top: 3px solid #f2f5f8;
+}
+.chart-footer{
+
+}
+.lblSavings,.lblGains{
+	display: inline-block;
+	width:50px;
+}
+#tblSavings{
+	height: 30px;
+    text-align: right;
+    width: 80%;
+    margin-top: -4px;
+}
+#costSavings,#gains{
+	width: 100px;
+    text-align: center;
+}
+.plus{
+	width:2px;
+}
+.turnoverReduction,.savings,.totalEBITDA{
+	height:inherit;
+	background-color:#f2f5f8;
+	width:28%;
+	float: left;
+    background-color:white;	
+    text-align:center;
+	font-size:13px;
+	font-weight:normal; 
+}
+.prevturnoverReduction,.prevsavings,.prevtotalEBITDA{
+    height:inherit;
+    background-color:#f2f5f8;
+    width:28%;
+    float: left;
+    background-color:white; 
+    text-align:center;
+    font-size:13px;
+    font-weight:normal; 
+}
+.savings{
+	width:43%;
+}
+.turnoverReduction,.totalEBITDA{
+	line-height: 26px;   
+}
+
+.prevturnoverReduction,.prevtotalEBITDA{
+    line-height: 26px;   
+}
+
+.turnoverReduction:before{
+    content: "";
+    border-right: 6px solid #f2f5f8;
+    border-top: 20px solid #f2f5f8;
+    border-bottom: 20px solid #f2f5f8;
+    float: left;
+    padding-bottom: 12px; 
+}
+.turnoverReduction:after{
+    content: "";
+    border-left: 20px solid white;
+    border-top: 26px solid #f2f5f8;
+    border-bottom: 26px solid #f2f5f8;
+    float: right;
+    margin-top:-52px;
+}
+.prevturnoverReduction:before{
+    content: "";
+    border-right: 6px solid #f2f5f8;
+    border-top: 20px solid #f2f5f8;
+    border-bottom: 20px solid #f2f5f8;
+    float: left;
+    padding-bottom: 12px; 
+}
+.prevturnoverReduction:after{
+    content: "";
+    border-left: 20px solid white;
+    border-top: 26px solid #f2f5f8;
+    border-bottom: 26px solid #f2f5f8;
+    float: right;
+    margin-top:-52px;
+}
+.savings:after{
+    content: "";
+    border-left: 20px solid white;
+    border-top: 26px solid #f2f5f8;
+    border-bottom: 26px solid #f2f5f8;
+    float: right;
+    margin-top: -53px;
+}
+.chart{
+	height:335px;
+	background-color:white;	
+	border: 1px solid #f2f5f8;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.prevchart{
+    height:335px;
+    background-color:white; 
+    border: 1px solid #f2f5f8;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.impactLabel{
+	width: 73px;
+	font-size:11px;
+	font-family:'Open Sans';
+	font-weight:bold;
+	letter-spacing: -1px;
+    border-left: none;
+    border-right: none;
+    padding-left:0;
+    padding-right:0;
+}
+.impact{	    
+	background-color: #f2f5f8;
+    width: 50px;
+    text-align: center;
+    text-indent: -0.9em;
+    border-left: none;
+    border-right: none;
+    padding-left:0;
+    padding-right:0;
+}
+.impactPadding{        
+    background-color: #f2f5f8;
+    width: 17px;
+    border-left: none;
+    border-right: none;
+    padding-left:0;
+    padding-right:0;
+}
+#calculate{
+	width:100% !important;
+    font-size:13px;
+    margin-top:15px;
+    color: white;
+    background-color:#02955D;
+}
+
+#prevcalculate{
+    color: white;
+    background-color:#02955D;
+}
+
+.footer{
+	/*position: absolute;*/
+    clear:both !important;
+    margin-top: 80px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+/*.calc_sec,.calc_sec h3{
+	text-align:center !important;
+	padding-bottom:0px;
+}
+
+.calc_sec{
+	margin-bottom:4px;
+}
+.nvtooltip {
+	margin-left:260px;
+  	margin-top: -5px;
+   	margin-right: 0px;
+}*/
+
+.calc_sec,.calc_sec h3{
+    text-align:center !important;
+    padding-bottom:0px;
+}
+
+.calc_sec{
+    margin-bottom:4px;
+}
+.nvtooltip {
+    margin-left:260px;
+    margin-top: -5px;
+    margin-right: 0px;
+}
+
+#help, #help1, #help2, #help3, #help4,
+#help5, #help6, #help7, #help8, #help9, 
+#help10, #help12{
+    border: 1px solid blue;
+    /*padding-left: 4px;
+    padding-right: 8px;*/
+    background: #f2f5f8;
+    width: 1.8ex;
+    height: 1.8ex;
+    border-radius: 1ex;
+    font-size: 60%;
+    text-align: center;
+    font-weight: bold;
+    display: inline-block;
+    
+}
+
+.popUp,.popUp1,.popUp2,.popUp3,.popUp4,
+.popUp5,.popUp6,.popUp7,.popUp8,.popUp9,
+.popUp10,.popUp11,.popUp12{
+    display: none;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    /*background-color: rgb(0,0,0);*/
+    background-color: rgb(0,0,0,0.5);
+    left: 0;
+    top: 0;
+    padding-top: 10%;
+    overflow: auto;
+}
+
+.popUp{position:absolute;top:5%}
+.popUp1{position:absolute;top:4%;left:7%}
+.popUp2{position:absolute;top:4%;left:16%}
+.popUp3{position:absolute;top:4%;left:31%}
+.popUp4{position:absolute;top:2%;left:-22%}
+.popUp5{position:absolute;top:7%;left:-22%}
+.popUp6{position:absolute;top:11.5%;left:-22%}
+.popUp7{position:absolute;top:16%;left:-22%}
+.popUp8{position:absolute;top:20.5%;left:-22%}
+.popUp9{position:absolute;top:25%;left:-22%}
+.popUp10{position:absolute;top:29.5%;left:-22%}
+.popUp12{position:absolute;top:34%;left:-22%}
+.popUp11{position:absolute;top:38.5%;left:-22%}
+
+
+.insidePopUp, .insidePopUp1, .insidePopUp2, .insidePopUp3,
+.insidePopUp4, .insidePopUp5, .insidePopUp6, .insidePopUp7,
+.insidePopUp8, .insidePopUp9, .insidePopUp10, .insidePopUp11,
+.insidePopUp12{
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 20%;
+}
+
+.close,.close1,.close2,.close3,.close4,
+.close5,.close6,.close7,.close8,.close9,
+.close10,.close11,.close12{
+    color: rgb(0,0,0);
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus,
+.close1:hover, .close1:focus,
+.close2:hover, .close2:focus,
+.close3:hover, .close3:focus,
+.close4:hover, .close4:focus,
+.close5:hover, .close5:focus,
+.close6:hover, .close6:focus,
+.close7:hover, .close7:focus,
+.close8:hover, .close8:focus,
+.close9:hover, .close9:focus,
+.close10:hover, .close10:focus,
+.close11:hover, .close11:focus,
+.close12:hover, .close12:focus,
+#tenure:hover, #tenure:focus,
+#help4:hover, #help4:focus,
+#help5:hover, #help5:focus{
+    color: rgb(120,120,120);
+    cursor: pointer;
+}
+
+.button {
+    float: right;
+}
+
+.info:after{
+    content: '?';
+    font-size: 60%;
+    font-family: sans-serif;
+    vertical-align: middle;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    width: 1.8ex;
+    height: 1.8ex;
+    border-radius: 1ex;
+    color: blue;
+    background: white;
+    border: thin solid blue;
+}
+
+.info:hover:after{
+    color: white;
+    background: blue;
+    border-color: white;
+}
+
+@media only screen and (max-width:500px){
+.wrapper{width:100%;margin: 0;}
+#section1 td{font-size:12%; line-height:90%;}
+  #section1 h5{font-size:20%;}
+/*  .wrapper h3{font-size: 30px; margin:auto; width:100%;padding-bottom:2px;padding-right: 15px;padding-left: 15px;text-align: center;display: block;}
+*/  .calc_sec h3 span{display:none;}
+.triminputs{width: 290px;display:block; margin: 0 auto;}
+.trimChart{width: 100%;height:100%;display:block;margin:0 auto;}
+.chartDefault{height:100%;}
+.turnoverReduction{width: 35%;text-align: center;}
+.savings{width: 65%;}
+.totalEBITDA{width: 100%;padding-top: 5px;background-color: white;}
+.chart{padding-bottom: 40px}
+.chartContainerDiv{width: 100%;height: 100%}
+.calc_sec h3{font-size: 30px;margin-bottom: 10px;}
+.impact{width: 30px;}
+.table{width:100%;}
+#calculate{margin-bottom: 20px;}}
+
+@media only screen and (max-width:420px){
+.wrapper{width:100%;margin: 0;}
+#section1 td{font-size:12%; line-height:90%;}
+  #section1 h5{font-size:20%;}
+/*  .wrapper h3{font-size: 30px; margin:auto; width:100%;padding-bottom:2px;padding-right: 15px;padding-left: 15px;text-align: center;display: block;}
+*/  .calc_sec h3 span{display:none;}
+.triminputs{width: 200px;display:block; margin: 0 auto;}
+.trimChart{width: 100%;height:100%;display:block;margin:0 auto;}
+.chartDefault{height:100%;}
+.turnoverReduction {width: 30%; font-size: 9px;border-left: 2px}
+.savings{width: 70%;font-size: 9px; border-left: 2px}
+.totalEBITDA{width: 100%;padding-top: 5px;background-color: white;}
+.chart{padding-bottom: 40px}
+.chartContainerDiv{width: 100%;height: 100%}
+.calc_sec h3{font-size: 30px;margin-bottom: 10px;}
+.impact{width: 30px;}
+.table{width:100%;}
+#calculate{margin-bottom: 20px;}
+#costSavings{border-left: 1px;}
+#gains{border-right: 1px;}
+.trimTable{margin-left:15px;padding-bottom: 20px;}
+.profile-group label{width:175px;}
+.profile-group input{width:50px;}
+.productivity-group label{width:150px;}
+.productivity-group input{width:50px;}
+.chart-footer{display: none}
+
+.prevtrimChart{width: 100%;height:100%;display:block;margin:0 auto;}
+.prevchartDefault{height:100%;}
+.prevturnoverReduction {width: 30%; font-size: 9px;border-left: 2px}
+.savings{width: 70%;font-size: 9px; border-left: 2px}
+.totalEBITDA{width: 100%;padding-top: 5px;background-color: white;}
+.chart{padding-bottom: 40px}
+.prevchartContainerDiv{width: 100%;height: 100%}
+.calc_sec h3{font-size: 30px;margin-bottom: 10px;}
+.impact{width: 30px;}
+.table{width:100%;}
+#prevcalculate{margin-bottom: 20px;}
+#prevcostSavings{border-left: 1px;}
+#prevgains{border-right: 1px;}
+

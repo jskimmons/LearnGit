@@ -1,0 +1,112 @@
+#headcountTableContainer {
+	overflow-x:scroll;
+	width:1000px;
+	}
+
+#headcountTable tbody{
+	display:block;
+	overflow-y:auto;
+	}
+#headcountTable thead{
+	display:block;
+	background:#AAAAAA;
+	}
+#headcountTable th {
+	position:relative;
+	left:0;
+	}
+#headcountTable tr{
+	height:35px;
+	}
+#headcountTable .tableCell{
+	width:100px;
+}
+#headcountTable tr.groupLabel th{
+padding-left: 10px;
+background-color: #FFFFFF;
+}
+#headcountTable tr.groupLabel td{
+background-color: #EEEEEE;
+}
+#headcountTable tr.blank td{
+background-color: #F2F5F8;
+}
+#headcountTable tr.categoryLabel th{
+	padding-left: 15px;
+background-color: #EEEEEE;
+}
+#headcountTable tr.categoryLabel td{
+	
+	font-weight: bold;
+background-color: #EEEEEE;
+}
+
+#headcountPeriodLabelTable td {
+	font-weight: bold;
+	background-color: #AAAAAA;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 10px;
+	padding-right: 10px;
+	min-width: 100px;
+    text-align: right;
+    font-weight:700;
+    vertical-align:bottom;
+	
+}
+
+#headcountCornerTD {
+	/*width: 100px;*/
+	background-color: #AAAAAA;
+	font-weight: bold;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: right;
+	vertical-align:bottom;
+	padding-bottom: 4px;
+}
+#headcountRightMarginTD {
+	background-color : #AAAAAA;
+}
+#headcountScrollingTable td {
+	border-top: 1px solid #DDD;
+}
+#headcountLeftColumnTable td {
+	border-top: 1px solid #DDD;
+}
+#headcountLeftColumnTable td.rowLabelTD {
+    background-color: #FFFFFF;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 20px;
+        vertical-align: bottom;
+}
+#headcountLeftColumnTable td.lastYearTD {
+    font-weight: bold;
+    background-color: #FFFFFF;
+    *padding-left: 20px;
+    padding-right: 20px;
+    text-align: right;
+        vertical-align: bottom;
+    padding-bottom: 4px;
+}
+
+#headcountTable tr.headcountDataRow td.contentTD {
+	min-width : 100px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: right;
+    background-color: #ffffff;
+    vertical-align:bottom;
+}
+#headcountFooterTR {
+	background-color : #AAAAAA;
+	height : 15px;
+	min-height : 15px;
+}
+#headcountFooterTD {
+	background-color : #AAAAAA;
+	height : 15px;
+}

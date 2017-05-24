@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.javaApplet">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/RPSLKCollisionGame/src/Playground.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<intAttribute key="org.eclipse.jdt.launching.APPLET_HEIGHT" value="1000"/>
+<stringAttribute key="org.eclipse.jdt.launching.APPLET_NAME" value=""/>
+<mapAttribute key="org.eclipse.jdt.launching.APPLET_PARAMETERS">
+<mapEntry key="delay" value="20"/>
+<mapEntry key="fontName" value="Times New Roman"/>
+<mapEntry key="fontSize" value="50"/>
+<mapEntry key="htmlMaxTime" value="10000"/>
+<mapEntry key="maxTime" value="20000"/>
+<mapEntry key="rectNumber" value="5"/>
+<mapEntry key="throwName1" value="r"/>
+<mapEntry key="throwName2" value="r"/>
+<mapEntry key="throwName3" value="l"/>
+<mapEntry key="throwName4" value="s"/>
+<mapEntry key="throwName5" value="k"/>
+<mapEntry key="xPosition1" value="100"/>
+<mapEntry key="xPosition2" value="200"/>
+<mapEntry key="xPosition3" value="500"/>
+<mapEntry key="xPosition4" value="600"/>
+<mapEntry key="xPosition5" value="1500"/>
+<mapEntry key="xVelocity1" value="1"/>
+<mapEntry key="xVelocity2" value="-1"/>
+<mapEntry key="xVelocity3" value="-1"/>
+<mapEntry key="xVelocity4" value="-1"/>
+<mapEntry key="xVelocity5" value="-1"/>
+<mapEntry key="yPosition1" value="100"/>
+<mapEntry key="yPosition2" value="100"/>
+<mapEntry key="yPosition3" value="100"/>
+<mapEntry key="yPosition4" value="100"/>
+<mapEntry key="yPosition5" value="600"/>
+<mapEntry key="yVelocity1" value="0"/>
+<mapEntry key="yVelocity2" value="0"/>
+<mapEntry key="yVelocity3" value="0"/>
+<mapEntry key="yVelocity4" value="0"/>
+<mapEntry key="yVelocity5" value="1"/>
+</mapAttribute>
+<intAttribute key="org.eclipse.jdt.launching.APPLET_WIDTH" value="1000"/>
+<booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_START_ON_FIRST_THREAD" value="true"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="Playground"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="RPSLKCollisionGame"/>
+</launchConfiguration>

@@ -1,0 +1,22 @@
+<table style="width:100%">
+	<td><center><img src= "$image[$thisOne]" alt="A" /></center></td>
+	<td><center><img src= "$image[$thisOne1]" alt="B" /></center></td>
+</table>
+</body>
+</html>
+
+<ul>
+	<?php
+	echo"<li><img src="$image[4]"></li>"
+	?>
+</ul>
+
+
+
+	$image[0]='a.jpeg';
+	$image[1]='b.jpeg';
+	$image[2]='c.jpeg';
+	$image[3]='d.jpeg';
+	$image[4]='e.jpeg';
+	$image[5]='f.jpeg';
+	$image[6]='g.jpeg';

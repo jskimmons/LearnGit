@@ -1,0 +1,11 @@
+
+public class Rectangle implements Comparable<Rectangle> {
+
+
+	@Override
+	public int compareTo(Rectangle o) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

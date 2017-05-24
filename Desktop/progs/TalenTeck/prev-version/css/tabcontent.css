@@ -1,0 +1,59 @@
+ul.tabs
+{
+    padding: 14px 0 8px;
+    margin:auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0;
+    list-style-type: none;
+    text-align: center; /*set to left, center, or right to align the tabs as desired*/
+}
+
+a.paper  {
+  font-weight: lighter;
+  text-decoration:none;
+  color: #000;
+}
+
+a.paper:visited {
+ color:#000; 
+}
+
+a.paper:hover  {
+  text-decoration:none;
+  color: #313131
+}
+
+ul.tabs li a:hover
+{
+    text-decoration: ;
+    color: #000;
+    background-color: #fff ;
+}
+        
+        
+.tabcontents p{ padding-left: 22px ;text-indent: -22px ;}
+
+        
+ul.tabs li a.active
+{
+    position: relative;
+    top: 0px;
+    font-weight:;
+    background: #7b9693;
+    border: 0px solid #AAA;
+    color: #000;
+}
+
+ul.tabs li.active a:hover, ul.tabs li.active a:hover
+{
+    text-decoration: none;
+    font-weight:300;
+    background-color:#7b9693;
+}
+
+.content {
+    background-color:#ffffff;
+    padding:10px;
+    border:1px solid #464c54;   
+}
+#content_2, #content_3, #content_4 { display:none; }

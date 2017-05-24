@@ -1,0 +1,13 @@
+import TSVFilter.FilterBuilder;
+
+public class TSVFilter_Tester {
+
+	public static void main(String[] args) {
+		
+		TSVFilter filter = new TSVFilter.FilterBuilder("name", "joe").build();
+		
+		System.out.println(filter.getCondition() + " " +  filter.getType());
+		
+	}
+
+}

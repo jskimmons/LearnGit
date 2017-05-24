@@ -1,0 +1,12 @@
+
+
+public class TSVFilter_Tester {
+
+	public static void main(String[] args) {
+		
+		TSVFilter filter = new TSVFilter TSVFilter.FilterBuilder.getFilter();
+		
+		
+	}
+
+}

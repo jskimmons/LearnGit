@@ -1,0 +1,32 @@
+
+public class Rectangle implements Comparable<Rectangle> {
+	
+	private int width;
+	private int length;
+	
+	public Rectangle(int l, int w){
+		this.length = l;
+		this.width = w;
+	}
+	
+	public int getWidth(){
+		return width;
+	}
+	
+	public int getLength(){
+		return length;
+	}
+	
+	public String toString(){
+		String t = "Length: " + this.length + " Width: " + this.width;
+		return t;
+		
+	}
+
+	@Override
+	public int compareTo(Rectangle o) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

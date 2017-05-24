@@ -1,0 +1,12 @@
+Name	Age	Address	
+Paul	23	1115WFranklin	
+BessytheCow	5	BigFarmWay
+Zeke	45	WMainSt	
+Name	Age	Address	
+Paul	23	1115WFranklin	
+BessytheCow	5	BigFarmWay
+Zeke	45	WMainSt	
+Name	Age	Address	
+Paul	23	1115WFranklin	
+BessytheCow	5	BigFarmWay
+Zeke	45	WMainSt	

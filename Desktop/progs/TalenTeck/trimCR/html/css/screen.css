@@ -1,0 +1,311 @@
+@media only screen and (max-width:860px){
+
+.wrapper{width:auto; float:left;margin:0 1%;}
+#hideHeader {display:none;}
+#hideLogin {display:none;}
+
+
+.login_sec2{border:2px solid #404040; border-radius: 4px; position:absolute; top:0; right:0; margin: 7px 3px 6px 3px;}
+.login_sec2 li a{text-decoration:none; font-size:15px; letter-spacing: 2px; font-weight:bold; color:#404040; display:block; padding:3px 15px;}
+
+/*Hamburger Menu*/
+header {width:100%; background:#fff; border:0px; height:40px; min-height:35px;}
+.mobile-nav { width:100%; float:left; height:6%; position:fixed; z-index:10; padding-top:7px; margin-top:-1px;}
+.menu-btn {margin-left:2%;}
+.responsive-menu {float:left; width:50%; height:auto; background-color:#fff; box-shadow: 1px 1px 1px #e6e6e6; margin-top:1%;}
+.responsive-menu li{text-align:center; font-family: 'Open Sans'; font-weight:lighter; font-size:22px;   padding:10px; padding-left:10px; padding-right:10px; border-bottom:1px solid #e6e6e6; }
+.responsive-menu a{color: black; font-family: 'Open Sans';font-size: 20px;}
+.responsive-menu a:hover{color:#02955D;}
+
+
+/*Front page*/
+.TT_logo img{width: 70%; max-width:500px; margin-top:-10%;}
+.banner_section h4{width:90%; max-width:465px; padding-left:3px; padding-right:3px; font-size:16px;}
+.banner_section h4 span{width:90%; max-width:465px; padding-left:3px; padding-right:3px; font-size:16px;}
+.banner_section img{width:60%; margin-top:0px}
+
+
+/*Tour page*/
+.tourBanner_sec img{width:500px; height:auto;}
+.verticalTour h3{margin-top:25px; font-size:24px;}
+.verticalTour h3 span{font-size:14px;}
+ul.slider1 li img{width:100%; padding:0; margin:0;}
+.calculator {width:100%}
+
+/*People page*/
+.banner_people h3{margin-top:10px; padding-bottom:10px; font-size:24px;}
+.banner_people h3 span{font-size:14px;}
+.Projectsbox-mob img{width:60%;}
+.Projects img{width:50%;}
+.ProjectsNewLine img{width:50%;}
+
+.lalith_people { width:70%; height:150px margin-top:5px; overflow-y:scroll; float:right;}
+.lalith_image {width:23%;}
+.lalith_image img{width:100%;}
+.showHover h4{font-size:5px; line-height:6px; padding:2px; margin-top:-8px;}
+.showHover p{font-size:5px; line-height:6px; padding:2px; margin-top:-8px;}
+.showHover h4 span{font-size:5px; line-height:6px; padding:2px; }
+
+/*Calculator Page*/
+.calc_sec{margin-top:3%;}
+#chartPlaceHolder h1{margin:-10px;}
+.calc_sec h3{font-size:20px;}
+.calc_sec h3 span{font-size:14px;}
+#calculatortable h5 span{display:none;}
+
+
+
+/* Survey page */
+.surveyEmbed {width:95%; height:350px;}
+.banner_survey iframe{width:100%; height:100%;}
+.banner_survey h3 {margin-top:5px; font-size:24px;}
+.banner_survey h3 span{line-height:1.35; font-size:14px;}
+
+
+
+/* Contact Us page*/
+.block2{display: block; width:90%; float:left; margin:auto;}
+.block6{width:90%; float:left; margin:auto; }
+.contactUs h3{margin-left:1px; font-size:24px;}
+.contactUs h3 span{font-size:14px;}
+}
+
+
+
+@media only screen and (max-width:500px){
+  /*Tour page*/
+  .tourBanner_sec {display:none;}
+  .verticalTour img{width:100%; height:auto; margin:auto; float:center;}
+  .verticalTour{width:90%; height:auto; float:center; margin:auto; text-align:center; margin-bottom:30px;}
+  .verticalTour h3{margin-top:10px;font-size:24px; }
+  .verticalTour h3 span{margin-bottom:-10px; font-size:12px; }
+  .wrapper-3howTocalculator li{width:90%; margin: 10px;}
+  .wrapper-3howTocalculator li:first-child{margin-right:0;}
+  .wrapper-3howTocalculator li:last-child{margin-left:0;}
+  .section3 #webnewtour4 {display:none;}
+  .section3 #mobilenewtour4 {display:block;}
+/*  .wrapper-3howTocalculator div{max-width: auto; display: block; margin: 0 auto;}
+*/ 
+
+  /*Calculator section*/ 
+  #section1 td{font-size:12%; line-height:90%;}
+  #section1 h5{font-size:20%;}
+  #section1 h3{padding-bottom:2px;}
+  .calc_sec h3 span{display:none;}
+  
+  /*Survey section*/
+  .surveyEmbed {display:none;} 
+  .desktopSurvey {display:none;}
+  
+  /*people*/
+  .lalith_people{margin-right:10px; height:125px;}
+  .banner_people h3{margin-top:5px; margin-bottom:0px;}
+  .lalith_people h4 {font-size:16px; margin-left:10px; margin-top:5px; font-weight:bold;}
+  .lalith_people h5 {font-size:12px; margin-left:5px; margin-bottom:5px; font-weight:bold;}
+  .lalith_people p  {font-size:10px;margin-left:10px ;}
+  .banner_people h6 {font-size:18px;}
+  .projectsNewLine h6 {font-size:18px;}
+  
+  /*Contact*/
+  .block6{width:94%; float:left; margin:auto; }
+
+  /*Front Page*/
+  .firstLook-button1{margin-bottom: 20px;}
+  .firstLook-button2{margin-top: 20px;}
+  .websiteTour{width:100%; padding:7px 0px;}
+  .websiteTour a{font-size:13px; font-weight:bold;}
+  .firstLook-p{width:100%; font-size:16px; padding-top:10px; padding-bottom:30px;}
+  .firstLook-text{padding:0 30px; position:relative; text-align:center;}
+  .firstLook h1{text-align:center; font-size:30px; width:100%; padding: 10px 0; line-height: 40px;}
+  .firstLook{padding:30px 0; position:relative; height:340px;}
+
+  .section2{padding:25px 15px 20px;}
+  .process-text{padding-bottom:20px;}
+  .process-title{font-size:30px; padding-bottom:10px; width:auto}
+  .process-description{font-size:16px; width:auto;}
+
+
+img{width:75%;display: block;margin-left: auto; margin-right: auto; position: center;}
+#productsmobileimg{display:block;}
+#productsimg{display:none}
+
+
+  .wrapper-3howTo li{width:90%; margin: 0;}
+  .wrapper-3howTo li:first-child{margin-right:0;}
+  .wrapper-3howTo li:last-child{margin-left:0;}
+  .wrapper-3howTo div{max-width: auto; display: block; margin: 0 auto;}
+  .wrapper-3howTo li img{max-width:100%; height: 200px; margin: 0 auto; }
+  .wrapper-3howTo h3{font-size: 18px; font-weight: bold; margin-bottom: 7px}
+  .wrapper-3howTo p{font-size: 16px;}
+
+  .section3{padding-bottom: 0;}
+  .section3 h2{padding:25px 15px 20px; margin:0 auto; width:auto;}
+  .section3 h2{font-size:30px}
+  .section3 img{padding-bottom:0; width:95%;}
+  .section3 p{font-size:16px; margin-bottom:20px; width:auto; line-height: 200%;}
+  .verticalResults div{margin: 20px auto 10px; padding:7px 0px; width: 340px;}
+  .calculator{font-size:13px; margin:0;}
+  
+  .regularResults{display:none;}
+
+  #research .title{width:90%;}
+
+   .wrapper-3howTofooter li{width:90%; margin: 0;}
+  .wrapper-3howTofooter li:first-child{margin-right:0;}
+  .wrapper-3howTofooter li:last-child{margin-left:0;}
+  .wrapper-3howTofooter div{max-width: auto; display: block; margin: 0 auto;}
+  .wrapper-3howTofooter li img{max-width:25%; height: 30px; margin: 0 auto; }
+  .wrapper-3howTofooter h3{font-size: 18px; font-weight: bold; margin-bottom: 7px}
+  .wrapper-3howTofooter h5{font-size: 18px; font-weight: bold; margin-bottom: 7px;}
+
+  .wrapper-3howTofooter p{font-size: 16px;}
+
+}
+
+
+
+@media only screen and (min-width:501px) {
+  .verticalTour{display:none;}
+  .mobileSurvey{display:none;}
+  .verticalResults{display:none;}
+
+}
+
+@media only screen and (min-width:861px){
+
+
+.mobile-nav {display:none;}
+
+}
+
+
+
+
+@media only screen and (max-width:1000px) { 
+
+/*Nav Bar*/
+.firstLook{margin-top:40px;}
+/*Research page*/
+#section4 .title{width:100%; float:center; margin-bottom:5px; }
+#section4 .title h3{color:#1F1F1F; text-align:left; font:24px/24px Open Sans, sans-serif; padding-bottom:0px; font-weight:lighter; margin-bottom:-20px; margin-top:35px; margin-left:5px; line-height:.9;}
+#section4 .title h3 span{font-size:14px;}
+
+ul.tabs li
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+    display: block;
+    float:left;
+    clear:left;
+    margin: 0;
+    margin-top:20px;
+    font: normal 12px 'Open Sans';
+    width:18%;
+}
+
+ul.tabs li a
+{
+    width:95%;
+    float: left;
+    background-color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 100%;
+    text-align:right;
+    text-decoration: none;
+    position: relative;
+    padding-top:15px; padding-bottom:15px;
+    padding-right:5%;
+    color: #000;
+    outline:none;
+    border-top:1px solid #7b9693;
+    border-bottom:1px solid #7b9693;
+    
+}
+        
+
+div.tabcontents
+{
+    height: 400px;
+    width:65%;
+    display:block;
+    float: center;
+    margin-left:0;
+    margin-right:0;
+    margin-bottom:0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 90%;
+    border: 1px solid #CCC; padding: 20px;
+    border-top-color:#AAA;
+    background-color:#F2F5F8;
+    line-height: 20px;
+
+}
+
+
+.tabcontents p{ padding-left: 10px ;text-indent: -15px ;}
+  
+}
+
+
+@media only screen and (min-width:1001px) { 
+
+  /* Tab Content - menucool.com */
+
+       
+ul.tabs li
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 200%;
+    display: inline;
+    margin: 0;
+    margin-right: 13.5px;/*distance between tabs*/
+    font: normal 12px Verdana;
+}
+
+ul.tabs li a
+{
+    width: 600px;
+    height: 400px;
+    float: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 150%;
+    text-decoration: none;
+    position: relative;
+    padding: 8px 22px;
+    color: #000;
+    border-radius: 3px 3px 0 0;
+    border: 1px solid lightgrey;
+    outline:none;
+}
+        
+
+div.tabcontents
+{
+    height: 400px;
+    width:950px;
+    float: center;
+    margin-left:auto;
+    margin-right: auto;
+    margin-bottom:20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 125%;
+    border: 1px solid #CCC; padding: 30px;
+    background-color:#F2F5F8;
+    border-radius: 0 0 0px 0px;
+    line-height: 35px;
+}
+
+.content {
+    background-color:#ffffff;
+    padding:10px;
+    border:1px solid #464c54;   
+}
+#content_2, #content_3, #content_4 { display:none; }
+
+
+}

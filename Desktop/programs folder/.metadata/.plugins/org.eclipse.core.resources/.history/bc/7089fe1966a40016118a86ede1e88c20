@@ -1,0 +1,12 @@
+import FilterBuilder;
+
+public class TSVFilter_Tester {
+
+	public static void main(String[] args) {
+		
+		FilterBuilder builder = new FilterBuilder("name", "joe");
+		
+		
+	}
+
+}

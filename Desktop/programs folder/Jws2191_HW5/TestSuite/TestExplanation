@@ -1,0 +1,9 @@
+This suite contains 1 video and 2 screenshots.
+The video demonstrates:
+1. collisions
+2. removal of losing objects
+3. ties between the same throws
+4. vertical, horizontal, and diagonal wrapping
+5. display of the reason one object beat another.
+
+

@@ -1,0 +1,4 @@
+new
+file
+new third line
+example

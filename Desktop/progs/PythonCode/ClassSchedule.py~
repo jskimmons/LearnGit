@@ -1,0 +1,19 @@
+# A script to scrape SSOL and pull class name, date, and time data
+
+from lxml import html
+import requests
+
+#open the URL
+
+num = input('Input the call number: ')
+
+url = 'https://ssol.columbia.edu/cgi-bin/ssol/pCXDLEFM60kd37et6UzKTR/?p_r_id=CzidyQG4QmYYCUAGqFrepR&p_t_id=1&tran%5B1%5D_entry=student&tran%5B1%5D_tran_name=sregs&tran%5B1%5D_ss=' + num + '&tran%5B1%5D_act=Search+Class'
+
+url2 = http://dining.columbia.edu/
+
+page = requests.get(url2)
+tree = html.fromstring(page.content)
+
+info = tree.xpath('//div[@class="feature_title"]/text()')
+
+print(info)

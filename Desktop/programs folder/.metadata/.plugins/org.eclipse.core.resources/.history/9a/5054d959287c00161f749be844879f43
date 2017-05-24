@@ -1,0 +1,53 @@
+import java.util.ArrayList;
+import java.util.LinkedList;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Person Lexo = new Person(17, "Lexo");
+		
+		System.out.println(Lexo.getName());
+		Lexo.setAge(34);
+		System.out.println(Lexo.getAge());
+	
+		//array
+		int [] anArray; 
+		anArray = new int[10];
+		
+		int y = 1;
+		for( int x = 0; x<=9; x++){
+			anArray[x] = y;
+			System.out.println(anArray[x]);
+			y*=10;
+		}
+		//arayList
+		ArrayList<Person> personList = new ArrayList<Person>();
+		personList.add(Lexo);
+		personList.add(new Person(18, "Joe"));
+		personList.add(new Person());
+		
+		
+		
+		for(Person p:personList){
+		System.out.println(p);
+		
+		
+		
+		}
+		
+		//Linked List
+		LinkedList<String> linkedlist = new LinkedList<String>();
+		linkedlist.add("joe");
+		linkedlist.add("josh");
+		linkedlist.add(0, "joseph");
+		
+		System.out.println(linkedlist);
+	
+
+	
+	
+	}
+
+}

@@ -1,0 +1,319 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>School Game</title>
+
+<SCRIPT LANGUAGE="JAVASCRIPT">
+
+
+var validForm
+validForm=0
+int y=0;
+function validateForm(form1){
+	
+	//lastName
+	if(form1.area.value=="") {
+		alert("Please enter a name!");
+		form1.area.focus()
+		return false
+	}
+	else if (form1.area.value=="John Cena!"){
+		y++;
+	}
+	return true
+}
+
+
+</SCRIPT>
+
+
+<style type="text/css">
+#form1 table {
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+}
+#form1 table tr td p {
+	text-align: left;
+}
+#form1 table tr td p {
+	font-weight: bold;
+}
+#form1 table tr td p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+#webForm table tr td {
+	font-family: Georgia, Times New Roman, Times, serif;
+}
+#webForm table tr td {
+	font-family: Arial, Helvetica, sans-serif;
+}
+#webForm table tr td table tr td font {
+	font-family: MS Serif, New York, serif;
+}
+#webForm table tr td table tr td font {
+	font-family: "Comic Sans MS", cursive;
+	font-size: 18px;
+}
+#webForm table tr td {
+	font-family: "Comic Sans MS", cursive;
+	font-size: 36px;
+
+	}
+@import url(master.css);
+
+coolShit {
+	background: #000;
+	overflow: hidden;
+	-webkit-animation-name: pulse;
+	-webkit-animation-duration: 30s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes pulse {
+	from {
+		background: #000;
+	}
+	25% {
+		background-color: #003;
+	}
+	50% {
+		background-color: #030;
+	}
+	to {
+		background: #000;
+	}
+}
+
+p {
+	z-index: 0;
+	color: rgba(0, 0, 0, 0);
+}
+
+#fog,
+#fog-2 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 2000px;
+	height: 2000px;
+	margin-top: -1000px;
+	margin-left: -1000px;
+	opacity: .5;
+	background: url(../img/fog.png) repeat-x 0 center;
+	-webkit-animation-name: fogAnimation;
+	-webkit-animation-duration: 30s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+
+#fog-2 {
+	opacity: 1;
+	-webkit-animation-duration: 120s;
+}
+
+@-webkit-keyframes fogAnimation {
+	from {
+		-webkit-transform: rotate(0deg);
+		background-position: 0 center;
+	}
+	to {
+		-webkit-transform: rotate(360deg);
+		background-position: 1000px center;
+	}
+}
+
+#glow {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 800px;
+	height: 800px;
+	margin: -400px 0 0 -400px;
+	background: url(../img/glow.png) repeat-x 0 0;
+	-webkit-animation-name: glowAnimation;
+	-webkit-animation-duration: 5s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes glowAnimation {
+	from {
+		opacity: 1;
+	}
+	50% {
+		opacity: .75;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+#light {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 800px;
+	height: 800px;
+	margin: -400px 0 0 -400px;
+	background: url(../img/light.png) no-repeat center center;
+	-webkit-animation-name: lightAnimation;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes lightAnimation {
+	from {
+		opacity: .25;
+	}
+	50% {
+		opacity: .5;
+	}
+	to {
+		opacity: .25;
+	}
+}
+
+#stars,
+#stars-2,
+#small-stars,
+#small-stars-2 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 600px;
+	height: 600px;
+	margin: -300px 0 0 -300px;
+	background: url(../img/stars-large.png) no-repeat center center;
+	-webkit-animation-name: starsLarge;
+	-webkit-animation-duration: 60s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes starsLarge {
+	from {
+		-webkit-transform: rotate(0deg) scale(3);
+		opacity: .1;
+	}
+	to {
+		-webkit-transform: rotate(360deg) scale(.5);
+		opacity: 0;
+	}
+}
+
+#stars-2 {
+	-webkit-animation-name: starsLargeAlt;
+	-webkit-animation-duration: 45s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes starsLargeAlt {
+	from {
+		-webkit-transform: rotate(180deg) scale(3);
+		opacity: .25;
+	}
+	to {
+		-webkit-transform: rotate(360deg) scale(.5);
+		opacity: 0;
+	}
+}
+
+#small-stars,
+#small-stars-2 {
+	background: url(../img/stars-small.png) no-repeat center center;
+	-webkit-animation-duration: 15s;
+	-webkit-animation-name: starsSmall;
+}
+
+#small-stars-2 {
+	-webkit-animation-name: starsSmallAlt;
+	-webkit-animation-duration: 30s;
+}
+
+@-webkit-keyframes starsSmall {
+	from {
+		-webkit-transform: rotate(360deg) scale(3);
+		opacity: .25;
+	}
+	to {
+		-webkit-transform: rotate(0deg) scale(.5);
+		opacity: 0;
+	}
+}
+
+@-webkit-keyframes starsSmallAlt {
+	from {
+		-webkit-transform: rotate(0deg) scale(3);
+		opacity: .1;
+	}
+	to {
+		-webkit-transform: rotate(360deg) scale(.5);
+		opacity: 0;
+	}
+}
+
+</style>
+</head>
+
+<body bgcolor="#000000">
+
+		   
+<form id="form1" name="form1" method="post" action= "pals_find9.php">
+  Submit
+</form>
+<form id="form1" name="form1" onsubmit="return validateForm(form1);"  method="post" action= "pals_find9.php">
+  <table  bgcolor=white width="733" height="585" bordercolor=#DCBC6C border="9" align="center">
+    <tr>
+      <td height="117" align="center" valign="middle" bgcolor="#CCCCCC">P.A.L.S. School Game</td>
+    </tr>
+    <tr>
+      <td height="444" align="center" bgcolor="#CCCCCC"><table width="432" height="149" border="0" cellpadding="10">
+          <tr>
+            <td width="35%" height="44" align="center" valign="middle"><font size="2">Number of questions:</font></td>
+            <td width="65%" align="left"><select name="questions" id="questions">
+              <option value="5">5</option>
+              <option selected="selected" value="10">10</option>
+              <option value="15">15</option>
+              <option value="20">20</option>
+            </select></td>
+          </tr>
+          <tr>
+            <td height="48" align="center" valign="middle"><font face="Arial" size="2">Enter Username:</font></td>
+            <td align="left"><font face="Arial">
+              <input name="area" type="text" id="area" onfocus="if(this.value == 'Enter Username') { this.value = ''; }" value=	"Enter Username" size="20" />
+            </font></td>
+          </tr>
+          <tr>
+            <td height="49" align="center"><font size="2" face="Arial">Choose Game Mode:</font></td>
+            <td align="left"><label for="Game Modes"></label>
+              <select name="questions2" id="questions2">
+                <option value="Competiton">Competition</option>
+                <option selected="selected" value="Practice">Practice</option>
+            </select></td>
+          </tr>
+        </table>
+        <blockquote>
+          <p align="center">
+            <input type="submit" name="submitButton" id="submitButton" value="Submit" />
+          </p>
+        </blockquote>
+<p>
+          <center>
+          </center>
+      </p>
+        
+      <p>&nbsp;</p></td>
+    </tr>
+  </table>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+<p>&nbsp;</p>
+</form>
+
+</body>
+</html>

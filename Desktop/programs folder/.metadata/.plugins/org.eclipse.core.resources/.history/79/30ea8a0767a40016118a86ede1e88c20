@@ -1,0 +1,54 @@
+
+public class TSVFilter {
+	
+	private String type;
+	private String condition;
+	
+	public TSVFilter(FilterBuilder filter){
+		this.type = filter.type;
+		this.condition = filter.condition;
+	}
+	
+	public String getType(){
+		return type;
+	}
+	
+	public String getCondition(){
+		return condition;
+	}
+
+	public static class FilterBuilder{
+
+		private String condition;
+		private String type;
+			
+		public FilterBuilder(String type, String condition){
+			this.type = type;
+			this.condition = condition;
+		}
+			
+		public FilterBuilder setType(String type){
+			this.type = type;
+			return this;
+		}
+			
+		public FilterBuilder setCondition(String condition){
+			this.condition = condition;
+			return this;
+		}
+			
+		public TSVFilter build(){
+			return new TSVFilter(this);
+		}
+		
+		public TSVFilter getFilter() {
+			return new
+					TSVFilter.FilterBuilder('Jhon', 'Doe')
+					.age(30)
+					.phone('1234567')
+					.address('Fake address 1234')
+					.build();
+		}
+	}
+	
+}

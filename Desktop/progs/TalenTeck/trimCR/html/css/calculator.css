@@ -1,0 +1,263 @@
+div#calculatorTable {
+	/*float: left;*/
+	width: 96%;
+	margin-left: 2%;
+    margin-right: 2%;
+	height: 100%;
+}
+table{
+	table-layout:fixed;
+}
+
+div#secondTable_div {
+    overflow-x: scroll;
+}
+
+
+td #TitleLabelTD, td #EmploymentLabelTD, td #TurnoverLabelTD, td #VacancyLabelTD, td #TrainingLabelTD, td #OnboardingCostLabelTD, td #TrainingCostLabelTD, td #CompensationLabelTD, td #RevenueLabelTD{
+  margin-top: 3px;
+  margin-bottom: 3px;
+  text-align:left; 
+  padding-left:10px;
+	width: 120px;
+  border: 0px;
+
+}
+
+td .inputTD {
+  margin-top: 3px;
+  margin-left: 3px;
+  margin-right: 3px;
+  margin-bottom: 3px;
+  border : 0px;
+}
+
+.btn.btn-default.calc {
+	margin-left: 160px;
+}
+
+.btn.btn-transparent {
+	border-color: transparent;
+	background-color: transparent;	
+}
+
+.btn.btn-calculate {
+	border-color: transparent;
+	background-color: #02955D;
+	&.hover {background-color: #02955D }
+	&:hover, &:active, &.active, &.disabled, &[disabled] { 
+	background-color: #02955D;
+
+	 }
+
+}
+
+button{
+	font-size: 10px;
+	color: black;
+	width: 90px;
+	height: 20px;
+	border: 1px;
+	/*border-radius:6px;*/
+}
+#calculate-button{
+	font-size: 15px;
+	font-weight: bold;
+	color: white;
+	width: 100px;
+	height: 30px;
+}
+#add-button{
+	font-size: 10px;
+	color: black;
+	width: 90px;
+	height: 20px;
+}
+
+h3, td{
+	font-size: 92%;
+}
+
+table td {
+  border:solid 5px transparent;
+}
+
+table td {
+  border-left:solid 10px transparent;
+}
+table td:first-child {
+  border-left:0;
+}
+
+#TitleTD {
+	background-color: #b5b5b5;
+	}
+
+#CalculatorTD, #ChartTD{
+	min-width: 400px;
+}
+
+#CalculatorHeader {
+	background-color: #F2F5F8;
+	}
+
+#GraphHeader {
+	background-color: #F2F5F8;
+	}
+
+
+.buttons {
+	margin-right: auto;
+	}
+
+#CalculatorTD{
+	min-height: 350px;
+}
+
+#ChartTD{
+	padding: 0;
+	height: 100%;
+	vertical-align: top;
+}
+
+body{
+	min-height: 500px;
+	
+}
+
+table #MainTable{
+	height: 100%;
+}
+
+
+body{
+	height: 100%;
+}
+
+
+
+#Overall_TitleTD, #Overall_EmploymentTD, #Overall_TurnoverTD, #Overall_VacancyTD, #Overall_TrainingTD, #Overall_OnboardingCostTD,
+#Overall_TrainingCostTD, #Overall_CompensationTD, #Overall_RevenueTD{
+	font-weight:bold;
+}
+
+div#chart{
+	
+	width: 100%;
+	/*margin-right: 10%;*/
+	height: 100%;
+	margin-top: 0%;
+	/*position: relative;*/
+}
+
+#chart svg{
+	margin-left: 20px;
+	width: 90%;
+	height: 450px;
+}
+
+
+#table{
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+select.form-control{
+	width: 70px;
+}
+
+#calculatorTable {
+	display: none;
+}
+
+.nv-y.nv-axis .nv-axisMaxMin{
+	display: none;
+} 
+
+.tick {opacity : 0.1; }
+
+.nv-x.nv-axis .nv-axisMaxMin text {
+  font-weight: medium;
+}
+
+.nvd3 .nv-axis path {
+   stroke: #000;
+   stroke-opacity: .75;
+   shape-rendering: crispEdges;
+ }
+
+.nv-y.nv-axis path.domain {
+   /*fill: none; */
+   stroke: #000;
+   stroke-opacity: .75;
+   stroke-width: 2;
+   shape-rendering: crispEdges;
+ }
+
+.nv-x.nv-axis path.domain {
+   /*fill: none; */
+   stroke: #000;
+   stroke-opacity: 0;
+   stroke-width: 0;
+   shape-rendering: crispEdges;
+ }
+
+
+h1{
+	/*text-align: center;*/
+	color: #458258;
+	font-weight: bold;
+
+}
+
+h5{
+  text-align: left;
+  font-size: 16px;
+  padding: 5px;
+  padding-bottom:2px;
+  margin-bottom:-5px;
+}
+
+#whiteheader {
+	color: #FFFFFF;
+}
+/*a:link {
+	text-decoration: none;
+	color: #000000;
+}
+a:visited {
+	text-decoration: none;
+	color: #000000;
+}
+a:hover {
+	text-decoration: none;
+	color: #000000;
+}
+a:active {
+	text-decoration: none;
+	color: #000000;
+}*/
+
+#tourPop {
+	height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    text-align: center;
+	display: none;
+}
+
+#tourPop a:link {
+    text-decoration: underline;
+    color: #337ab7;
+}
+
+#tourPop a:visited {
+    text-decoration: underline;
+    color: #337ab7;
+}
+#savingsTag {
+	color: #219621
+}
